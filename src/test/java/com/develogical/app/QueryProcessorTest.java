@@ -26,6 +26,6 @@ public class QueryProcessorTest {
 
     @Test
     public void knowsAboutOrwell() throws Exception {
-        assertThat(queryProcessor.process("Orwell"), containsString("totalitarianism"));
+        assertThat(queryProcessor.process("Orwell"), containsString("playwright"));
     }
 }
