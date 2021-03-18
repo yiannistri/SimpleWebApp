@@ -11,7 +11,13 @@ public class QueryProcessor {
                     "English novelist, essayist, journalist and critic. His work is characterised by lucid " +
                     "prose, biting social criticism, opposition to totalitarianism, and outspoken support of " +
                     "democratic socialism.";
+        } else if (query.toLowerCase().contains("byron")){
+            return "George Gordon Byron, 6th Baron Byron, FRS (22 January 1788 - 19 April 1824), " +
+                    "known simply as Lord Byron, was an English peer, who was a poet and politician. " +
+                    "He was one of the leading figures of the Romantic movement and is regarded as " +
+                    "one of the greatest English poets.";
         }
+
         return "";
     }
 }
