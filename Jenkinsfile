@@ -5,4 +5,7 @@ node {
    stage('Build') {
       sh "./gradlew clean test"
    }
+   stage('Deploy') {
+      sh "git push https://git.heroku.com/agile-depths-02824.git master"
+   }
 }
